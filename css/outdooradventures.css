@@ -1,0 +1,79 @@
+nav{
+	background: #CEECFE;
+	height: 1cm;
+	text-align: center;
+	padding-top: 0.5cm;
+	position: sticky;
+	top: 0;
+}
+nav ul li{
+	border: 2px solid #0172BA;
+	border-radius: 25%;
+	color: #0172BA;
+	font-size: 14pt;
+	background: white;
+	display: inline;
+	list-style: none;
+	padding: 3px;
+}
+nav ul li:hover{
+	background: #003557;
+}
+
+
+footer{
+	padding-top: 20px;
+	background-color: #CEECFE;
+	border-top: 2px solid blue;
+	border-bottom: 2px solid blue;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+#footerimg {
+	grid-column: 1;
+	grid-row: 1 / span 2;
+	margin-left: 20px;
+}
+.footersection {
+	margin-left: 20px;
+	padding: 0 20px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+	padding: inherit;
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-bottom: 10px;
+}
+#headerimg {
+	grid-column: 2;
+}
+
+#socialheader {
+	grid-column: 3;
+	justify-self: end;
+	align-self: center;
+}
+#login {
+	grid-column: 1;
+	grid-row: 1;
+	justify-self: start;
+	align-self: center;
+}
+#login ul li{
+	border-radius: 25%;
+	color: white;
+	font-size: 14pt;
+	background: #0172BA;
+	display: inline;
+	list-style: none;
+	padding: 4px;
+}
+#login ul li:hover{
+	background: #089247;
+}
